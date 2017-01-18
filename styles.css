@@ -118,3 +118,13 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     border-top: none;
     height:100%;
 }
+
+.Clientsnav{
+    margin-top: 50;
+    float:center;
+}
+
+.Clientsnav ul li {
+    width: 150px;
+}
+
