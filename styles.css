@@ -4,11 +4,12 @@ html{
 }
 
 .Page1 {  
-    min-height: 800px;
+    min-height: 300px;
 }
 
 .AtheletePage{
-    height:800px;
+/*    height:800px;*/
+    
 }
 
 .navigationbar {
@@ -116,15 +117,16 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-    height:100%;
+    height:79%;
 }
 
 .Clientsnav{
-    margin-top: 50;
+    margin-top: 20px;
     float:center;
 }
 
-.Clientsnav ul li {
-    width: 150px;
-}
 
+.calendarimport{
+    height: 60%;
+    border: 2px dashed;  
+}
