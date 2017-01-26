@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Django_Lfit.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['Lfit/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
