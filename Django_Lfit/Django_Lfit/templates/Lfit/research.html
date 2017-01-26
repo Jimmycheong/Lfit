@@ -1,8 +1,12 @@
+{% load staticfiles %}
+
+
 <DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel=stylesheet type=text/css href="styles.css"> 
+        <link rel="stylesheet" href="{% static 'styles.css' %}">
     </head>
     <body>
 
@@ -10,11 +14,11 @@
 
     <div> 
         <ul class="tab">
-            <li class="tablinks"><a href=admin_crm_main2.html>Main</a></li>
-            <li class="tablinks"><a href="clients.html">Clients</a></li>
-            <li class="tablinks"><a href="training.html">Training</a></li>
-            <li class="tablinks"><a href="calendar.html">Calendar</a></li>
-            <li class="tablinks"><a href="research.html" style="background-color:#000000; color:white">Research</a></li>
+            <li class="tablinks"><a href="" >Main</a></li>
+            <li class="tablinks"><a href="clients">Clients</a></li>
+            <li class="tablinks"><a href="training">Training</a></li>
+            <li class="tablinks"><a href="calendar">Calendar</a></li>
+            <li class="tablinks"><a href="research" style="background-color:#000000; color:white">Research</a></li>
         </ul>
     </div>
         

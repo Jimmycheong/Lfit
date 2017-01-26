@@ -16,6 +16,14 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from Lfit import views
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^home$', views.index, name = 'home'),
+    url(r'^clients$', views.clients, name = 'clients'),
+    url(r'^calendar$', views.calendar, name = 'calendar'),
+    url(r'^training$', views.training, name = 'training'),
+    url(r'^research$', views.research, name = 'research'),
+
 ]
