@@ -1,11 +1,26 @@
-{% extends "base.html" %}
 {% load staticfiles %}
 
-{% block head%}
-    <title>Admin-Clients</title>
-{% endblock head%}
+<DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel=stylesheet type=text/css href="styles.css">
+        <link rel="stylesheet" href="{% static 'styles.css' %}">
+    </head>
 
-{% block body %}
+    <body>
+<!--    Main Nav Bar    -->
+
+    <div> 
+        <ul class="tab">
+            <li class="tablinks"><a href="home" >Main</a></li>
+            <li class="tablinks"><a href="clients" style="background-color:#000000; color:white">Clients</a></li>
+            <li class="tablinks"><a href="training">Training</a></li>
+            <li class="tablinks"><a href="calendar">Calendar</a></li>
+            <li class="tablinks"><a href="research">Research</a></li>
+        </ul>
+    </div>
+        
 <!--    NAVBAR    -->
     <div class="container Clientsnav">
        <ul class="tab">
@@ -58,11 +73,6 @@
         evt.currentTarget.className += " active";
         }    
     </script>
-    <script>
-        document.getElementById("clients").style.backgroundColor = "#000000"
-        document.getElementById("clients").style.color = "white"
-        
-//        style="background-color:#000000; color:white"
-
-    </script>
-{% endblock body%}
+    
+    </body> 
+</html>
